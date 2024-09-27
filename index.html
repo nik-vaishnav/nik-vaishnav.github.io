@@ -3,105 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Kailas Vaishnav's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Nikhil Kailas Vaishnav - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 
-    <header class="bg-dark text-white text-center py-5">
-        <h1>Nikhil Kailas Vaishnav</h1>
-        <p>MSc Computer Science | Tech Enthusiast | Java Developer</p>
-    </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Nikhil's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <section class="about-me text-center py-5">
+<header>
+    <h1>Nikhil Kailas Vaishnav</h1>
+    <p>Welcome to my portfolio!</p>
+</header>
+
+<section id="about-me" class="about-me py-5">
+    <div class="container">
         <h2>About Me</h2>
-        <p>I am currently pursuing my MSc in Computer Science from the Department of Computer Science at Savitribai Phule Pune University. I completed my BSc in Computer Science from Nutan Vidya Prasarak Mandal's Arts, Commerce & Science College with a CGPA of 9.02. I have a strong interest in software development and data science.</p>
-    </section>
+        <p>I am currently pursuing an MSc in Computer Science from the Department of Computer Science, Savitribai Phule Pune University. I completed my BSc in Computer Science from Nutan Vidya Prasarak Mandal's Arts, Commerce & Science College with a CGPA of 9.02. I scored 86.60% in my 10th grade.</p>
+    </div>
+</section>
 
-    <section class="education text-center py-5">
+<section id="education" class="education py-5">
+    <div class="container">
         <h2>Education</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>MSc Computer Science</h4>
-                    <p>Savitribai Phule Pune University</p>
-                </div>
-                <div class="col-md-6">
-                    <h4>BSc Computer Science</h4>
-                    <p>Nutan Vidya Prasarak Mandal's Arts, Commerce & Science College</p>
-                    <p>CGPA: 9.02</p>
-                </div>
-                <div class="col-md-6">
-                    <h4>10th Grade</h4>
-                    <p>Percentage: 86.60%</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <ul>
+            <li>MSc in Computer Science - Savitribai Phule Pune University</li>
+            <li>BSc in Computer Science - Nutan Vidya Prasarak Mandal</li>
+            <li>10th Grade - 86.60%</li>
+        </ul>
+    </div>
+</section>
 
-    <section class="skills text-center py-5">
+<section id="skills" class="skills py-5">
+    <div class="container">
         <h2>Skills</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h4>C, C++, Python</h4>
-                </div>
-                <div class="col-md-3">
-                    <h4>Web Development</h4>
-                </div>
-                <div class="col-md-3">
-                    <h4>Java (Intermediate)</h4>
-                </div>
-                <div class="col-md-3">
-                    <h4>Data Science</h4>
-                </div>
-            </div>
-        </div>
-    </section>
+        <ul>
+            <li>Java (Intermediate)</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </div>
+</section>
 
-    <section class="projects py-5">
-        <h2 class="text-center">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Alumni Nexus: Building a web app for managing alumni connections.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">CSV Data Filtering Tool: A C program to filter CSV data based on user criteria.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">YouTube Playlist Downloader using yt-dlp.</p>
-                        </div>
+<section id="projects" class="projects py-5">
+    <h2 class="text-center">Projects</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path/to/your/image1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 1</h5>
+                        <p class="card-text">This project is about...</p>
+                        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                        <a href="link/to/project1" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
             </div>
+            <!-- Add more project cards similarly -->
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="contact py-5 text-center">
-        <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to reach out:</p>
-        <p>Email: <a href="mailto:nikhilv121121@gmail.com">nikhilv121121@gmail.com</a></p>
-        <p><a class="btn btn-primary" href="https://drive.google.com/file/d/1mRf_OLwz3tBWn8MeI9d5ExzwibbtqiUS/view?usp=drive_link" target="_blank">Download Resume</a></p>
-    </section>
+<section id="contact" class="contact py-5">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:nikhilv121121@gmail.com">nikhilv121121@gmail.com</a></p>
+        <p>Find me on <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a> | <a href="https://github.com/nik-vaishnav" target="_blank">GitHub</a></p>
+    </div>
+</section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer class="text-center py-4">
+    <p>&copy; 2024 Nikhil Kailas Vaishnav. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-
